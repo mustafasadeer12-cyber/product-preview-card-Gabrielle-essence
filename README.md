@@ -47,25 +47,37 @@ Practicing flexbox every day built real muscle memory.
 Instead of watching tutorials endlessly, I now learn by doing — building, testing, and breaking things on purpose.
 (Not easy at all — but totally worth it. The satisfaction!)
 
-📸 Screenshots
 
-### 🎯 Flexbox Froggy
-![Flexbox Froggy Screenshot](images/flexbox-froggy.png)
+## 📊 Progress Metrics
 
-### 🧱 Colt Steele’s Flexbox Exercise
-![Colt Steele Box Layout](images/colt-steele-exercise.png)
+- **Days of Practice:** 7 days
+- **Flexbox Froggy:** 24/24 levels completed ✅
+- **Exercises Completed:** 8 layout challenges
+- **Projects Built:** 2 (Product Card, Simple Dashboard)
+- **Code Written:** ~300 lines of CSS
 
-🎯 Flexbox Froggy Completed Levels
 
-🧱 Colt Steele’s Flexbox Exercises
+## 📚 Best Resources (Ranked)
 
-🔜 Next Steps
+### 🥇 Must-Use
+1. **[Flexbox Froggy](https://flexboxfroggy.com/)** — Best for visual learners. Complete all 24 levels.
+2. **[MDN Flexbox Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)** — Most accurate documentation.
 
-Dive deeper into CSS Grid and responsive design.
+### 🥈 Highly Recommended  
+3. **Colt Steele's Web Dev Bootcamp** — Great real-world exercises with detailed explanations.
 
-Recreate real website layouts using Flexbox + Grid combined.
+### 🥉 Good Supplementary
+4. **Frontend Mentor** — Real design challenges to apply flexbox skills.
 
-Start documenting every mini-project to track progress and growth.
+## 🔜 Next Steps
+
+- Complete **3 Frontend Mentor challenges** using Flexbox (Product Card, Pricing Component, Testimonials Grid)
+- Learn **CSS Grid fundamentals** via Grid Garden game
+- Build a **responsive navigation bar** combining Flexbox + media queries
+- Document mini-projects with before/after comparisons
+- Recreate **3 real website sections** (header, footer, card gallery) using Flexbox + Grid
+ & Frontend Mentor
+
 
 💚 Huge appreciation to MDN
  & Frontend Mentor
