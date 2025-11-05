@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Monsterrat',sans-serif;
+  background-color: hsl(40, 84%, 86%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  
+}
+
+.product__card {
+  display: flex;
+  max-width: 600px;
+  width:90%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.product__image {
+  
+  width: 50%;
+  height: auto;
+}
+
+.product__image img {
+  
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.product__info {
+  
+  width: 50%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.product__tag {
+  
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.75rem;
+  color: hsl(228,12%,48%);
+  margin-bottom: 1rem;
+}
+
+.product__title {
+  
+  font-family: 'Fraunces', sans-serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.5rem;
+  
+}
+
+.product__description {
+  
+  font-size: 0.875rem;
+  line-height: 1.6rem;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.5rem;
+}
+
+
+
+.product__pricing {
+  
+  display:flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+ 
+}
+
+.product__price--current {
+  
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+
+.product__price--original {
+  
+  font-size: 0.875;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.product__button {
+  
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color:white;
+  border: none;
+  padding:1rem;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  transition: background-color 0.2s ease;
+  font-weight: 500;
+}
+
+.product__button:hover {
+  background-color: hsl(158, 36%, 25%);
+}
+
+.product__button img {
+  
+  width: 16px;
+  height: 16px;
+  
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  
+}
+
+
+}
